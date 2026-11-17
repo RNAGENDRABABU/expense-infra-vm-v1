@@ -5,7 +5,7 @@
 #   frontend.<domain>, backend.<domain>,
 #   mysql.<domain>                           -> private IPs (VM-to-VM traffic)
 # Change this if the course domain is a different zone.
-domain_name = "daws90s.shop"
+domain_name = "daws88s.online"
 
 # Your public IP, /32. Re-check if your IP changes:
 #   curl -s https://checkip.amazonaws.com
@@ -15,9 +15,9 @@ admin_cidr = "5.31.189.46/32"
 # always allowed). E.g. a Prometheus server outside this VPC: ["198.51.100.7/32"]
 monitoring_cidrs = []
 
-mysql_repo_url    = "https://github.com/aiops-v2/expense-mysql-v1.git"
-backend_repo_url  = "https://github.com/aiops-v2/expense-backend-v1.git"
-frontend_repo_url = "https://github.com/aiops-v2/expense-frontend-v1.git"
+mysql_repo_url    = "https://github.com/aiops-02/expense-mysql-v1.git"
+backend_repo_url  = "https://github.com/aiops-02/expense-backend-v1.git"
+frontend_repo_url = "https://github.com/aiops-02/expense-frontend-v1.git"
 
 # Git branch to deploy.
 mysql_repo_ref    = "main"
